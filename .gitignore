@@ -1,0 +1,3 @@
+# Ignore specific large or sensitive files
+Model_&_featur/X_smote.pkl
+data/filtered_dataset.csv
