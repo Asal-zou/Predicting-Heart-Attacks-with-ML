@@ -7,7 +7,7 @@ def main():
 
     st.markdown("""
     <style>
-    @import url('NoteBook/Deploying_Strimlit/final_model.pkl');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
     .stApp {
         background-color: #fafafa; /* Lighter shade for the background */
@@ -65,7 +65,7 @@ def main():
     # Attempt to load the pre-trained model
     model = None
     try:
-        base_path = "/Users/asalzooashkiany/Documents/Final_project/Model_&_featur and target variable/final_model.pkl"
+        base_path = "NoteBook/Deploying_Strimlit/final_model.pkl"
         model = pickle.load(open(base_path, 'rb'))
     except Exception as e:
         st.error(f"Failed to load the model: {e}")
