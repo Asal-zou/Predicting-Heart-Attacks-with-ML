@@ -35,10 +35,10 @@ Develop a predictive model to accurately estimate the risk of heart attacks and 
 - **True Positive Rate**: 0.84
 - **Importance of True Positive Rate**: In the context of imbalanced data, it is crucial to detect as many true positives as possible (i.e., correctly predicting those who may have a heart attack). This focus helps minimize the risk of falsely predicting that someone will not have a heart attack when they actually will.
 
-## Youden's J Statistic
-### Youden's J statistic is a `single number` calculated from a `point on the ROC curve`. It is defined as `J = sensitivity + specificity - 1`, simplifying to `J = true positive rate - false positive rate`.
-### This statistic provides a method to **identify the optimal threshold**: the `point on the ROC curve that maximizes the J statistic is considered the best trade-off` between `true positives` and `false positives` for a given classifier. It effectively maximizes the classifier's performance in terms of both sensitivity and specificity.
-### **Optimal Threshold Used**: 0.07548561
+### Youden's J Statistic
+#### Youden's J statistic is a `single number` calculated from a `point on the ROC curve`. It is defined as `J = sensitivity + specificity - 1`, simplifying to `J = true positive rate - false positive rate`.
+#### This statistic provides a method to **identify the optimal threshold**: the `point on the ROC curve that maximizes the J statistic is considered the best trade-off` between `true positives` and `false positives` for a given classifier. It effectively maximizes the classifier's performance in terms of both sensitivity and specificity.
+#### **Optimal Threshold Used**: 0.07548561
 
 ## Challenges and Solutions
 - **Imbalanced Data**: Utilized SMOTE and specialized sampling techniques to address imbalance in medical datasets.
