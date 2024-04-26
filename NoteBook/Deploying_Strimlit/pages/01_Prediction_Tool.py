@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import imblearn
 
 def main():
     st.title("Heart Attack Prediction Tool :hearts:")
