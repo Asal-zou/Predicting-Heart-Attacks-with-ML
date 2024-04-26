@@ -1,3 +1,5 @@
 # Ignore specific large or sensitive files
 Model_&_featur/X_smote.pkl
 data/filtered_dataset.csv
+Model_&_featur and target variable/X_smote.pkl
+data/heart_2022_with_nans.csv
