@@ -7,7 +7,7 @@ def main():
 
     st.markdown("""
     <style>
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    @import url('NoteBook/Deploying_Strimlit/final_model.pkl');
 
     .stApp {
         background-color: #fafafa; /* Lighter shade for the background */
