@@ -29,6 +29,8 @@ Develop a predictive model to accurately estimate the risk of heart attacks and 
 * **BMI (Body Mass Index)**: High BMI is indicative of greater cardiovascular strain.
 * **Smoking Status**: A known risk factor for various heart diseases.
 * **Physical Activity**: Regular activity helps protect against heart disease.
+  ![Key Features](https://github.com/Asal-zou/Predicting-Heart-Attacks-with-ML/assets/134029102/f2a1ce79-79dc-424f-a044-4055719d178f)
+
 
 ## Model Performance 🚀
 * **ROC**: 0.97
