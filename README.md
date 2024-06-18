@@ -1,4 +1,4 @@
-# Investigating the Predictability of Heart Attacks through ML 💓
+# Investigating the Predictability of Heart Attacks through ML ❤️
 
 ## Project Overview 📊
 This project aims to develop a machine learning model to predict the risk of heart attacks, thereby enhancing preventive healthcare strategies. Utilizing individual health data from Kaggle, the model focuses on early and accurate detection of risk factors, aiming to improve patient outcomes and reduce the burden of heart disease on health systems globally.
