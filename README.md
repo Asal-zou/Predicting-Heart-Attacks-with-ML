@@ -49,7 +49,7 @@ Develop a predictive model to accurately estimate the risk of heart attacks and 
 ## Challenges and Solutions
 * **Imbalanced Data**: Utilized SMOTE and specialized sampling techniques to address the imbalance in medical datasets.
   
-![Proportion of HadHeartAttack]](https://github.com/Asal-zou/Predicting-Heart-Attacks-with-ML/assets/134029102/f504f600-960c-45eb-b569-4d879b5adf8c)
+![Proportion of HadHeartAttack](https://github.com/Asal-zou/Predicting-Heart-Attacks-with-ML/assets/134029102/f504f600-960c-45eb-b569-4d879b5adf8c)
 
 ## Data Handling Techniques
 * **Handling Nulls**: Used KNN for imputation of missing values in columns like "SmokerStatus", "GeneralHealth", and "AgeCategory".
