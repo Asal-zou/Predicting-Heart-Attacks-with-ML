@@ -24,13 +24,26 @@ Develop a predictive model to accurately estimate the risk of heart attacks and 
   * Robust against overfitting, particularly useful in unbalanced data scenarios.
 
 ## Key Features and Their Importance 📈
-* **Diabetes (0.25 Importance Score)**: A significant risk factor for heart disease.
-* **Age (0.15 Importance Score)**: Increased age correlates with higher cardiovascular risk.
+
+## Key Features and Their Importance 📈
+
+Based on evidence from research and the feature importance derived from our model, the following are key predictors of heart attacks:
+
+* **Had Angina**: Angina pectoris (chest pain) is a symptom of coronary artery disease, which often precedes heart attacks.
+* **Physical Health Days**: The number of days with poor physical health can indicate underlying issues, including those related to the heart.
+* **Physical Activities**:Regular activity helps protect against heart disease.
+* **Had Stroke**: Previous stroke events are linked to an increased risk of heart attacks due to shared risk factors like hypertension and atherosclerosis.
 * **BMI (Body Mass Index)**: High BMI is indicative of greater cardiovascular strain.
 * **Smoking Status**: A known risk factor for various heart diseases.
-* **Physical Activity**: Regular activity helps protect against heart disease.
+* **Diabetes (0.25 Importance Score)**: A significant risk factor for heart disease.
 
- ![Key Features](https://github.com/Asal-zou/Predicting-Heart-Attacks-with-ML/assets/134029102/21b329b6-e1ec-4a6b-a07a-95b3593429b4)
+To determine these key features, a RandomForestClassifier was trained on the dataset. The model's feature importance scores revealed which variables had the most influence on predicting heart attacks. The most significant features, as listed above, align with known medical research on heart disease risk factors.
+
+The following chart visualizes the feature importance as determined by the RandomForestClassifier:
+
+![Key Features](https://github.com/Asal-zou/Predicting-Heart-Attacks-with-ML/assets/134029102/21b329b6-e1ec-4a6b-a07a-95b3593429b4)
+
+The visual representation of feature importance shows some differences from the online evidence but still effectively highlights the significant predictors for heart attacks.
 
 
 ## Model Performance 🚀
