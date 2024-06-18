@@ -34,6 +34,8 @@ Develop a predictive model to accurately estimate the risk of heart attacks and 
 * **ROC**: 0.97
 * **True Positive Rate**: 0.84
 * **Importance of True Positive Rate**: In the context of imbalanced data, it is crucial to detect as many true positives as possible (i.e., correctly predicting those who may have a heart attack). This focus helps minimize the risk of falsely predicting that someone will not have a heart attack when they actually will.
+  
+![ROC curve](https://github.com/Asal-zou/Predicting-Heart-Attacks-with-ML/assets/134029102/073f39d4-2cde-4ff5-af84-f06a84639fb8)
 
 ### Youden's J Statistic
 * **Youden's J statistic** is a `single number` calculated from a `point on the ROC curve`. It is defined as `J = sensitivity + specificity - 1`, simplifying to `J = true positive rate - false positive rate`.
@@ -45,7 +47,9 @@ Develop a predictive model to accurately estimate the risk of heart attacks and 
 **Observation**: When deploying the model, I noticed that some features did not change the percentage of likelihood of having a heart attack, and I'm not sure why. This warrants further investigation to understand the underlying cause.
 
 ## Challenges and Solutions
-* **Imbalanced Data**: Utilized SMOTE and specialized sampling techniques to address imbalance in medical datasets.
+* **Imbalanced Data**: Utilized SMOTE and specialized sampling techniques to address the imbalance in medical datasets.
+  
+![Proportion of HadHeartAttack]](https://github.com/Asal-zou/Predicting-Heart-Attacks-with-ML/assets/134029102/f504f600-960c-45eb-b569-4d879b5adf8c)
 
 ## Data Handling Techniques
 * **Handling Nulls**: Used KNN for imputation of missing values in columns like "SmokerStatus", "GeneralHealth", and "AgeCategory".
